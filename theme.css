@@ -1,0 +1,83 @@
+/* Global */
+.header {
+  background-color: #181818;
+}
+
+p, strong, b, h1, h2, h3, h4 {
+  color: #fff;
+}
+
+a { color: #14BAE4; }
+
+body {
+  background-color: #303030;
+  color: #ddd;
+}
+
+.form-control, .form-select {
+  background-color: #232323;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+}
+.btn-primary { background-color: #2ecc71; color: #fff; background-image: none; }
+.btn-primary:hover { background-image: none!important; }
+.muted-link { color: #ddd; }
+.muted-link:hover { color: #2ecc71; }
+
+/* Navbar */
+.header-logo-invertocat .octicon-mark-github { color: #fff; }
+.header-nav-link, .header-nav-link:hover{ color: #fff; transition: all 200ms ease; }
+.header-nav-link:hover { transform: translateY(0.3em); background-color: #303030; }
+.header-nav-item .dropdown-menu { background-color: #202020; }
+.dropdown-menu::after { border-bottom-color: #202020; }
+.dropdown-item, .dropdown-header { color: #ddd; }
+.dropdown-signout { color: #e74c3c; }
+
+/* User Profile */
+.user-profile-nav, .user-profile-sticky-bar::after {
+  background-color: #282828;
+  color: #fff;
+  border-bottom: 0;
+  box-shadow: none;
+}
+
+.filter-item { color: #eee; }
+.filter-item:hover { background-color: #252525;}
+.filter-item.selected { background-color: #181818; }
+
+.d-inline-block, .text-gray { color: #ccc; }
+.bg-white { background: #252525; padding-left: 5px; }
+
+.f6 { color: #fff; }
+.calendar-graph text.month, .calendar-graph text.wday { fill: #ddd; }
+
+.user-profile-bio, .vcard-username {
+  color: #ccc;
+}
+
+.ajax-pagination-form .ajax-pagination-btn {
+  color: #ddd;
+  background-color: #252525;
+  border: 0;
+  border-radius: 0;
+}
+
+.topic-tag-link, .topic-tag-link:hover { background: #252525; }
+
+.float-left { color: #fff; }
+.profile-rollup-wrapper .css-truncate-target { color: #ddd; }
+.link-gray-dark { color: #bbb; }
+
+.underline-nav-item, .underline-nav-item:hover, .underline-nav-item:focus, .Counter,
+.contributions-setting .contributions-setting-link {
+  color: #fff;
+  transition: all 200ms ease;
+}
+.underline-nav-item:hover { transform: translateY(-0.3em); background-color: #303030; }
+
+.profile-timeline-year-list { background: transparent; }
+.pinned-repos-setting-link { color: #ddd; font-weight: bold; }
+.d-table-cell:hover { color: #aaa; }
+.d-table-cell { color: #fff!important; }
+.pinned-repo-desc { color: #ddd; }
