@@ -81,3 +81,158 @@ body {
 .d-table-cell:hover { color: #aaa; }
 .d-table-cell { color: #fff!important; }
 .pinned-repo-desc { color: #ddd; }
+
+
+/** Lewis' Contrib */
+body {
+    background-color: #303030;
+}
+
+.boxed-group h3, .select-menu-header, .commit-tease, .commit-tease-contributors {
+    background-color: #353535;
+    border: none;
+}
+
+.commit-tease-contributors {
+    background-color: #404040;
+}
+
+.boxed-group .boxed-group-inner, .boxed-group .boxed-group-inner .more-repos, .mini-repo-list-item, .filter-bar, .select-menu-filters, .js-navigation-item {
+    background-color: #404040;
+    border: none;
+    box-shadow: none;
+}
+
+.select-menu-header .select-menu-title {
+    color: #ffffff;
+}
+
+.select-menu-text-filter input {
+    border: none;
+}
+
+.select-menu-header {
+    border: none;
+}
+
+.select-menu-item {
+    background-color: #404040;
+    color: #ffffff;
+    border: none;
+}
+
+.select-menu-list:last-child .select-menu-item:last-child, .select-menu-item.last-visible {
+    border: none;
+    border-radius: 0px;
+}
+
+.select-menu-item.navigation-focus, .select-menu-item.selected {
+    background-color: #14BAE4;
+}
+
+.repo-filter, .octicon, .title, blockquote {
+    color: #ffffff;
+}
+
+.news .alert {
+    border-top: 1px solid transparent;
+}
+
+.btn.select-menu-button, .btn.btn-sm {
+    background: #353535;
+    color: #ffffff;
+}
+
+.pagehead {
+    background-color: inherit;
+}
+
+.social-count {
+    background: #353535;
+    color: #ffffff;
+}
+
+.reponav {
+    border: none;
+}
+
+.reponav-item {
+    background: #353535;
+    color: #999999;
+}
+
+.reponav-item:hover {
+    color: #ffffff;
+}
+
+.reponav-item.selected {
+    background: #404040;
+    color: #ffffff;
+    border-color: #e36209 transparent transparent;
+}
+
+.text-gray-dark {
+    color: #ffffff;
+}
+
+.numbers-summary li a, .numbers-summary span {
+    color: #ffffff;
+}
+
+.repository-lang-stats-numbers li a span {
+    color: #ffffff;
+}
+
+.numbers-summary {
+    background: #454545;
+}
+
+.overall-summary, .repository-lang-stats-graph {
+    border: none;
+}
+
+.file-wrap, .commit-tease {
+    border: none;
+}
+
+a.user-mention {
+    color: #ffffff;
+}
+
+a.message {
+    color: #999999;
+}
+
+.markdown-body {
+    background: #404040;
+    border: none;
+}
+
+table.files tr.navigation-focus td {
+    background: #505050;
+}
+
+table.files td {
+    border: none;
+}
+
+.file {
+    border: none;
+}
+
+.file-header {
+    background: #353535;
+    border: none;
+}
+
+.blob-num {
+    color: #ffffff;
+}
+
+.data {
+    background: #404040;
+}
+
+.blob-code-inner {
+    color: #ffffff;
+}
